@@ -1043,4 +1043,4 @@ public class PushBotHardware extends OpMode
      */
     private Servo v_servo_right_hand;
 
-} // PushBotHardware
+} // Hardware
