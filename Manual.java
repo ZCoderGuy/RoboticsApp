@@ -46,3 +46,6 @@ public class Manual extends Telemetry {
   //
   update_telemetry ();
   update_gamepad_telemetry ();
+  
+  } // loop
+} //Manual
