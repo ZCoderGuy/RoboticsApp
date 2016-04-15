@@ -63,6 +63,15 @@ package com.qualcomm.ftcrobotcontroller.opmodes;
       );
   } // update_telemetry
   
+  public void update_gamepad_telemetry() {
+   telemetry.addData("05", "GP1 Left: " + -gamepad1.left_stick__y);
+   telemetry.addData("06", "GP1 Right: " + -gamepad1.right_stick_y);
+   telemetry.addData("07", "GP2 Left: " + -gamepad2.left_stick_y);
+   telemetry.addData("08", "GP2 X: " + gamepad2.x);
+   telemetry.addData("09", "GP2 Y: " + gamepad2.y);
+   telemetry.addData("10", "GP1 LT: " + gamepad1.left_trigger);
+   telemetry.addData("11", "GP1 RT: " + gamepad1.right_trigger);
+  }
   
  
  
