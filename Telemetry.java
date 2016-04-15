@@ -73,10 +73,15 @@ package com.qualcomm.ftcrobotcontroller.opmodes;
    telemetry.addData("11", "GP1 RT: " + gamepad1.right_trigger);
   }
   
+ public void set_first_messge (String p_message){
+  telemetry.addData("00", p_message);
+ }
  
  
- 
- 
+ public void set_error_message (String p_message){
+  set_first_message ("ERROR: " + p_message);
+ } // set_error_message
+} // Telemetry
  
  
  
