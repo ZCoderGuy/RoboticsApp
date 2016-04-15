@@ -57,7 +57,13 @@ package com.qualcomm.ftcrobotcontroller.opmodes;
       ( "03", 
       "Left Arm: " + a_left_arm_power()
       );
-      
+    telemetry.addData
+      ( "03",
+      "Hand Position: " + a_hand_position()
+      );
+  } // update_telemetry
+  
+  
  
  
  
